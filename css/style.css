@@ -30,7 +30,7 @@ h1,h2, h3, h4, h5, h6 {
 	font-weight:700;
 	line-height:1.1em;
 	color:#333;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
  
 .container {
@@ -129,12 +129,12 @@ header .navbar {
 }
 
 header .navbar-nav > li  {
-    padding-bottom: 12px;
+    padding-bottom: 0px;
     padding-top: 12px;
 }
 
 header  .navbar-nav > li > a {
-    padding-bottom: 6px;
+    padding-bottom: 0px;
     padding-top: 5px;
     margin-left: 2px;
     line-height: 30px;
@@ -836,8 +836,10 @@ ul.portfolio-categ li a{
 	color: #14A085;
 }
 ul.portfolio-categ li.active{
-border: 1px solid #D7D8D6;
-background-color: #EAEAEA;
+
+border: 1px solid #D7D8D6;
+
+background-color: #EAEAEA;
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
 	text-decoration:none;
@@ -1016,7 +1018,7 @@ h4.heading {
 	font-weight:700;
 }
 
-.heading { margin-bottom: 30px; }
+.heading { margin-bottom: 0px; }
 
 .heading {
 	position: relative;
